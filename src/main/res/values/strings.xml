@@ -1,10 +1,9 @@
 <resources>
-    <string name="app_name">Ex3</string>
+    <string name="app_name">Ex 4</string>
     <string name="numero1">Digite o primeiro número</string>
     <string name="numero2">Digite o segundo número</string>
-    <string name="verificar_maior">Verificar Maior</string>
-    <string name="somar_impares">Somar Ímpares</string>
-    <string name="maior_resultado">Maior número</string>
-    <string name="soma_resultado">Soma dos ímpares</string>
+    <string name="calcular_primos">Calcular Primos</string>
+    <string name="erro_validacao">Erro: menor deve ser ≥ 0 e maior ≤ 50</string>
     <string name="erro">Erro ao processar os valores</string>
+    <string name="resultado">Primos encontrados</string>
 </resources>

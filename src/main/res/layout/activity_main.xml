@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:padding="16dp"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,41 +10,27 @@
         android:hint="@string/numero1"
         android:inputType="number"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
     <EditText
         android:id="@+id/edtNumero2"
         android:hint="@string/numero2"
         android:inputType="number"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/btnMaior"
-        android:text="@string/verificar_maior"
+        android:id="@+id/btnCalcularPrimos"
+        android:text="@string/calcular_primos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"/>
+        android:layout_marginTop="12dp" />
 
     <TextView
-        android:id="@+id/txtMaior"
+        android:id="@+id/txtResultado"
         android:text=""
+        android:textStyle="bold"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textStyle="bold"/>
-
-    <Button
-        android:id="@+id/btnSomarImpares"
-        android:text="@string/somar_impares"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"/>
-
-    <TextView
-        android:id="@+id/txtSomaImpares"
-        android:text=""
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textStyle="bold"/>
-
+        android:layout_marginTop="16dp" />
 </LinearLayout>
