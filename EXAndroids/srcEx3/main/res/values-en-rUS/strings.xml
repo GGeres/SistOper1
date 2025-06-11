@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ex 3</string>
+    <string name="numero1">Enter first number</string>
+    <string name="numero2">Enter second number</string>
+    <string name="verificar_maior">Check Larger</string>
+    <string name="somar_impares">Sum Odds</string>
+    <string name="maior_resultado">Larger number</string>
+    <string name="soma_resultado">Sum of odd numbers</string>
+    <string name="erro">Error processing values</string>
+</resources>

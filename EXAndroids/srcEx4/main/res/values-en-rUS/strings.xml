@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ex 4</string>
+    <string name="numero1">Enter the first number</string>
+    <string name="numero2">Enter the second number</string>
+    <string name="calcular_primos">Find Primes</string>
+    <string name="erro_validacao">Error: min must be ≥ 0 and max ≤ 50</string>
+    <string name="erro">Error processing input</string>
+    <string name="resultado">Found primes</string>
+</resources>
